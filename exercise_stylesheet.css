@@ -1,17 +1,17 @@
-container {
+#container {
     margin: 10px;
     max-width: 100%;
 }
 
-nav {
+#nav {
     background-color: #ffffff;
     border-style: none;
 }
-footer {
+#footer {
     background-color: #ffffff;
     border-style: none;
 }
-body {
+#body {
     background-color: #ffffff;
     border-style:none;
     width:600px;
@@ -66,7 +66,7 @@ body {
     padding-top: 60px;
     padding-bottom: 60px;
 }
-p {
+#p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 200;

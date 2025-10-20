@@ -18,54 +18,63 @@ body {
     font-size: 20px;
     font-weight: 300;
     color: #000000;
+    text-align:left;
 }
 .navp {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight:200;
-    color:#000000
+    color:#000000;
+    text-align:left;
 }
 .footerh1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size:18px;
     font-weight: 300;
-    color:#000000
+    color:#000000;
+    text-align:left;
 }
 .footerp {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight:200;
     color: #000000;
+    text-align:left;
 }
 #pagetitle {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
     font-weight: 300;
     color: #000000;
+    text-align:center;
 }
 #sectionheading {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: 300;
     color:#000000;
+    text-align:left;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 200;
     color:#000000;
+    text-align:left;
 }
 .quote {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
-    color:#000000
+    color:#000000;
+    text-align: left;
 }
 .caption {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight:200;
     color:#3e3e3e;
+    text-align:left;
 }
 .linkedtext {
     font-family:Arial, Helvetica, sans-serif;

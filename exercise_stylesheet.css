@@ -1,3 +1,8 @@
+container {
+    margin: 10px;
+    max-width: 100%;
+}
+
 nav {
     background-color: #ffffff;
     border-style: none;

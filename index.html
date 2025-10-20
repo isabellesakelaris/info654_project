@@ -7,8 +7,8 @@
 <link rel=”stylesheet” type=”text/css” href=”/info654_project/exercise_stylesheet.css” />
 </head>
 <body>
-    <div name="container">
-        <div name="nav">
+    <div id="container">
+        <div id="nav">
             <div style="float:left;max-width:30%;">
                 <h1 class="navh1" >Scaleless Voices</h1>
                 <p class="navp">Making connections between music and poetry</p>
@@ -22,17 +22,17 @@
                 </div>
             </div>
         </div>
-        <div name="body" style="clear:both;">
+        <div id="body" style="clear:both;">
             <img src="https://isabellesakelaris.github.io/info654_project/musical_image.png" alt="A musical score" style="margin:auto;display:block;max-width:50%;"/>
         </div>
-        <div name="body">
+        <div id="body">
             <h1 id="sectionheading">Exposition</h1>
-            <p name="p">There is a used book store in Detroit, Michigan called John King Books, which houses an outstanding selection of volumes on nearly any subject, from cartography to music theory (which are fields perhaps not so disparate as they may seem, now that I think about it). On a particular visit to John King the summer before I began my honors thesis at Davidson College, I purchased Poetry as Experience by Norman C. Stageberg and Wallace L. Anderson, published in 1952 by American Book Company. Scanning the table of contents and the first few pages, I was charmed by the delightful footnotes, such as this one:</p>
+            <p id="p">There is a used book store in Detroit, Michigan called John King Books, which houses an outstanding selection of volumes on nearly any subject, from cartography to music theory (which are fields perhaps not so disparate as they may seem, now that I think about it). On a particular visit to John King the summer before I began my honors thesis at Davidson College, I purchased Poetry as Experience by Norman C. Stageberg and Wallace L. Anderson, published in 1952 by American Book Company. Scanning the table of contents and the first few pages, I was charmed by the delightful footnotes, such as this one:</p>
             <p class="quote">&ldquo;The word <em>poem</em> is also used to refer to the words on the printed page. These words, however, are only the stimuli for the real poem, which is experienced within the reader.&rdquo;</p>
             <p class="caption">Stageberg, Norman C. and Wallace L. Anderson. “The Nature of a Poem.” Poetry as Experience. American Book Company, 1951. p. 5. </p>
-            <p name="p">I liked how readily (and emphatically) the authors stated that a poem does its most important work beyond the page—something that felt as obvious to me as it seems to have been to them. So before I received my syllabus, I spent a good amount of time with Poetry as Experience, as well as with a few books on (Western) music theory and notation, seeking inspiration for the poems I would ultimately write that year.</p>
+            <p id="p">I liked how readily (and emphatically) the authors stated that a poem does its most important work beyond the page—something that felt as obvious to me as it seems to have been to them. So before I received my syllabus, I spent a good amount of time with Poetry as Experience, as well as with a few books on (Western) music theory and notation, seeking inspiration for the poems I would ultimately write that year.</p>
         </div>
-        <div name="body">
+        <div id="body">
             <table role="presentation" style="margin:auto; border-style:solid; border-color: black; border: 1px; width:600px;">
                 <tr><td><p>Vowel</p></td><td><p>As pronounced in</p></td><td><p>Characteristic frequency of formant</p></td></tr>
                 <tr><td><p>[i]</p></td><td><p>bee</p></td><td><p>3100</p></td></tr>
@@ -48,27 +48,27 @@
             </table>
             <p class="caption" style="text-align:center">Stageberg and Anderson, 120.</p>
         </div>
-        <div name="body">
-            <p name="p">As much as I enjoyed the footnotes (which become more academic after that first one), I was most impressed with the chart on page 120, reproduced above, which depicts the frequencies of different vowel formants outlined by D.C. Miller in “The Science of Musical Sounds” (1916), and tabulated by Mark H. Liddell in “New Light on the Physical Data of Language” (1925). Henry Lanz elaborated on both works in his 1926 essay, ”The Physical Basis of Rime,” in which he claims,</p></div>
+        <div id="body">
+            <p id="p">As much as I enjoyed the footnotes (which become more academic after that first one), I was most impressed with the chart on page 120, reproduced above, which depicts the frequencies of different vowel formants outlined by D.C. Miller in “The Science of Musical Sounds” (1916), and tabulated by Mark H. Liddell in “New Light on the Physical Data of Language” (1925). Henry Lanz elaborated on both works in his 1926 essay, ”The Physical Basis of Rime,” in which he claims,</p></div>
             <p class="quotation" >&ldquo;When we speak, [vowel formants] produce a gentle accompaniment to our speech which only lacks a certain unity to become a melody.&rdquo;</p>
             <p class="caption">Lanz, Henry. “The Physical Basis of Rime.” PMLA, vol. 41, no. 4, 1926, pp. 1015. JSTOR, https://doi.org/10.2307/457460. Accessed 19 Jun. 2022.</p>
-            <p name="p">To demonstrate his point, Lanz provides the reader with two examples of musical scores derived from the vowel formants in William Wordsworth’s “Hail, Zaragoza,” and Edgar Allen Poe’s “Raven.” The idea that a poem harbored an inherent music was one that I was looking forward to exploring in my thesis, so seeing that others had come to the same conclusion was affirming and inspiring.</p>
+            <p id="p">To demonstrate his point, Lanz provides the reader with two examples of musical scores derived from the vowel formants in William Wordsworth’s “Hail, Zaragoza,” and Edgar Allen Poe’s “Raven.” The idea that a poem harbored an inherent music was one that I was looking forward to exploring in my thesis, so seeing that others had come to the same conclusion was affirming and inspiring.</p>
         </div>
-        <div name="body">
+        <div id="body">
             <h1 id="sectionheading">Development</h1>
-            <p name="p">About four years later, I told my brother I’d like to learn Python (which he uses to model changes in neural pathways for his research at Northwestern University), and he recommended I come up with a project and learn the functions and foundations as I went along. It occurred to me that I could use Python to analyze a poem’s vowel formants and render its melody in a musical score, automating the process Lanz had completed manually.</p>
-            <p name="p">I began searching for a dataset to use, and came upon Ben Welsh’s the ee cummings free poetry archive, which felt appropriate, since I was working with a vowel formant chart created during cummings’ lifetime based on American English (and because enough of cummings’ poems have been released into the public domain). A little later on, I found Allison Parrish’s program, Pronouncing, which I used to decypher the vowel formants in the poems. Once I had assigned pitches to each formant based on its frequency, as in the chart, I used Lilypond, created by David Kastrup, Werner Lemberg, Han-Wen Nienhuys, Jan Nieuwenhuizen, Carl Sorensen, Janek Warchoł, et al. to engrave the score (with a few adjustments—you can find the code I used on GitHub).</p>
-            <p name="p">The first poem I ran through the program was “Amores (IV).” I was pleased with the code, and listening to the music it had produced, I recognized patterns I hadn’t noticed before. Then, I taped myself reciting the poem and listened to the two recordings one after the other. Remembering that Miller’s study found consistent results regardless of the register of his subjects’ voices, it occurred to me to examine spectrograms of each recording to see if I would have the same findings. I used Librosa to do so.</p>
-            <p name="p">On the ”Library” page of this website, you will find the text of ”Amores (IV),” the computed musical score, a number of recorded readings of the poem, and each recording’s spectrogram. I hope you will engage with the poem in each medium and voice, consider the similarities and differences, and enjoy.</p>
+            <p id="p">About four years later, I told my brother I’d like to learn Python (which he uses to model changes in neural pathways for his research at Northwestern University), and he recommended I come up with a project and learn the functions and foundations as I went along. It occurred to me that I could use Python to analyze a poem’s vowel formants and render its melody in a musical score, automating the process Lanz had completed manually.</p>
+            <p id="p">I began searching for a dataset to use, and came upon Ben Welsh’s the ee cummings free poetry archive, which felt appropriate, since I was working with a vowel formant chart created during cummings’ lifetime based on American English (and because enough of cummings’ poems have been released into the public domain). A little later on, I found Allison Parrish’s program, Pronouncing, which I used to decypher the vowel formants in the poems. Once I had assigned pitches to each formant based on its frequency, as in the chart, I used Lilypond, created by David Kastrup, Werner Lemberg, Han-Wen Nienhuys, Jan Nieuwenhuizen, Carl Sorensen, Janek Warchoł, et al. to engrave the score (with a few adjustments—you can find the code I used on GitHub).</p>
+            <p id="p">The first poem I ran through the program was “Amores (IV).” I was pleased with the code, and listening to the music it had produced, I recognized patterns I hadn’t noticed before. Then, I taped myself reciting the poem and listened to the two recordings one after the other. Remembering that Miller’s study found consistent results regardless of the register of his subjects’ voices, it occurred to me to examine spectrograms of each recording to see if I would have the same findings. I used Librosa to do so.</p>
+            <p id="p">On the ”Library” page of this website, you will find the text of ”Amores (IV),” the computed musical score, a number of recorded readings of the poem, and each recording’s spectrogram. I hope you will engage with the poem in each medium and voice, consider the similarities and differences, and enjoy.</p>
         </div>
-        <div name="body">
+        <div id="body">
             <h1 id="sectionheading">Recapitulation and Acknowledgments</h1>
-            <p name="p">While this project was originally created with poetry in mind, you can run any kind of text through the program in order to find its secret melody (in fact, after some improvements, my next goal is to make a symphony out of Moby Dick)—just clone the repository or make a pull request!</p>
-            <p name="p">Additionally, while I’m pleased with first attempt at working in Python, there are improvements to be made, which I’m looking forward to implementing, such as incorporating rhythm based on stressed and unstressed syllables, and automating the creation of the spectrograms.</p>
-            <p name="p">Finally, I am indebted to a great number of people who helped bring this project to life. My brother, Bennet Sakelaris, encouraged me to begin learning Python, and has provided me with much needed troubleshooting tips and moral support along the way. Thank you, Bennet, for your confidence. Additionally, my friend and colleague Jon Allured took the time to meet with me to map out the format and functions I could use to make my first draft of code more efficient. I have learned so much from his generosity and expertise. Thank you, Jon. To my friends who lent me their voices: Jacob, Thomas, Matt, and Christian, I am so grateful for your enthusiasm and willingness to participate in bringing this idea to life. Your support means the world to me.</p>
-            <p name="p">In this program, I use code and resources developed by Allison Parrish, who created Pronouncing (version 0.2.0), David Kastrup, Werner Lemberg, Han-Wen Nienhuys, Jan Nieuwenhuizen, Carl Sorensen, Janek Warchoł, et al., who created Lilypond (version 2.22.2), the creators of Librosa (Version 0.9.1), Brian Mcfee, Colin Raffel, Dawen Liang, Matt McVicar, Eric Battenberg, and Oriol Nieto, and Ben Welsh, who created and compiled the e.e. cummings free poetry archive. Thank you, all, for sharing your great work.</p>
+            <p id="p">While this project was originally created with poetry in mind, you can run any kind of text through the program in order to find its secret melody (in fact, after some improvements, my next goal is to make a symphony out of Moby Dick)—just clone the repository or make a pull request!</p>
+            <p id="p">Additionally, while I’m pleased with first attempt at working in Python, there are improvements to be made, which I’m looking forward to implementing, such as incorporating rhythm based on stressed and unstressed syllables, and automating the creation of the spectrograms.</p>
+            <p id="p">Finally, I am indebted to a great number of people who helped bring this project to life. My brother, Bennet Sakelaris, encouraged me to begin learning Python, and has provided me with much needed troubleshooting tips and moral support along the way. Thank you, Bennet, for your confidence. Additionally, my friend and colleague Jon Allured took the time to meet with me to map out the format and functions I could use to make my first draft of code more efficient. I have learned so much from his generosity and expertise. Thank you, Jon. To my friends who lent me their voices: Jacob, Thomas, Matt, and Christian, I am so grateful for your enthusiasm and willingness to participate in bringing this idea to life. Your support means the world to me.</p>
+            <p id="p">In this program, I use code and resources developed by Allison Parrish, who created Pronouncing (version 0.2.0), David Kastrup, Werner Lemberg, Han-Wen Nienhuys, Jan Nieuwenhuizen, Carl Sorensen, Janek Warchoł, et al., who created Lilypond (version 2.22.2), the creators of Librosa (Version 0.9.1), Brian Mcfee, Colin Raffel, Dawen Liang, Matt McVicar, Eric Battenberg, and Oriol Nieto, and Ben Welsh, who created and compiled the e.e. cummings free poetry archive. Thank you, all, for sharing your great work.</p>
         </div>
-        <div name="footer"><h1 name="footerh1">Scaleless Voices</h1><p name="footerp">&copy; Copyright Isabelle Sakelaris 2025</p></div>
+        <div id="footer"><h1 id="footerh1">Scaleless Voices</h1><p id="footerp">&copy; Copyright Isabelle Sakelaris 2025</p></div>
     </div>
 </body>
 </html>

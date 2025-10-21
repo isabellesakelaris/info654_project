@@ -1,5 +1,5 @@
 #container {
-    margin: 10px;
+    margin: 30px;
     max-width: 100%;
 }
 
@@ -23,7 +23,7 @@
     color: #000000;
     text-align:left;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 .navp {
     font-family: Arial;
@@ -63,8 +63,8 @@
     font-weight: 300;
     color:#000000;
     text-align:left;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 #p {
     font-family: Arial;

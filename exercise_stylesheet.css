@@ -1,6 +1,7 @@
 #container {
-    margin: 30px;
-    max-width: 100%;
+    background-color: #ffffff;
+    margin:30px;
+    max-width:100%;
 }
 
 #nav {
@@ -8,88 +9,81 @@
     border-style: none;
 }
 #footer {
-    background-color: #ffffff;
-    border-style: none;
+    background-color: #e3e3e3;
+    margin:auto;
 }
 #body {
     background-color: #ffffff;
     border-style:none;
-    width:600px;
+    max-width:900px;
+    margin:auto;
 }
 .navh1 {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 400;
     color: #000000;
-    text-align:left;
     padding-top: 30px;
-    padding-bottom: 10px;
 }
 .navp {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight:200;
-    color:#000000;
-    text-align:left;
+    color:#000000
 }
 .footerh1 {
     font-family: Arial;
-    font-size:18px;
-    font-weight: 300;
+    font-size:16px;
+    font-weight: 200;
     color:#000000;
-    text-align:left;
-    padding-top:30px;
-    padding-bottom:30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
 }
 .footerp {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight:200;
     color: #000000;
-    text-align:left;
+    padding-bottom:30px;
+    text-align: center;
 }
 #pagetitle {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 26px;
-    font-weight: 300;
+    font-weight: 400;
     color: #000000;
-    text-align:center;
-    padding-top:30px;
-    padding-bottom:30px;
 }
 #sectionheading {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 600;
     color:#000000;
-    text-align:left;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top:30px;
 }
 #p {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 200;
     color:#000000;
-    text-align:left;
 }
 .quote {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 600;
     color:#000000;
-    text-align: left;
+    padding-top:30px;
 }
 .caption {
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight:200;
     color:#3e3e3e;
-    text-align:left;
+    padding-bottom:30px;
 }
 .linkedtext {
-    font-family:Arial;
-    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 18px;
     font-weight:200;
     text-decoration:underline;
     color:blue
